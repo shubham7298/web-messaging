@@ -1,5 +1,3 @@
-# Firebase Web Codelab - Start code
+# Firebase Web Chat
 
-This folder contains the starting code for the [Firebase: Build a Real Time Web Chat App Codelab](https://codelabs.developers.google.com/codelabs/firebase-web/).
-
-If you'd like to jump directly to the end and see the finished code head to the [web](../web) directory.
+A simple web-chat Application with the help of Firebase projects on Firebase Platform with additional chat-room services 
