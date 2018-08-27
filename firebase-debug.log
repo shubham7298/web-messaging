@@ -1,0 +1,332 @@
+[debug] [2018-08-26T11:56:23.617Z] ----------------------------------------------------------------------
+[debug] [2018-08-26T11:56:23.628Z] Command:       /usr/bin/node /usr/local/bin/firebase serve --only hosting
+[debug] [2018-08-26T11:56:23.629Z] CLI Version:   4.2.0
+[debug] [2018-08-26T11:56:23.629Z] Platform:      linux
+[debug] [2018-08-26T11:56:23.629Z] Node Version:  v8.10.0
+[debug] [2018-08-26T11:56:23.643Z] Time:          Sun Aug 26 2018 17:26:23 GMT+0530 (IST)
+[debug] [2018-08-26T11:56:23.643Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-26T11:56:23.738Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-26T11:56:23.739Z] > authorizing via signed-in user
+[debug] [2018-08-26T11:56:23.749Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-08-26T11:56:23.751Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+
+[debug] [2018-08-26T11:56:25.097Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-26T11:56:25.143Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/friendlychat-69871  
+ 
+[debug] [2018-08-26T11:56:28.779Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-26T11:56:28.785Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/friendlychat-69871  
+ 
+[debug] [2018-08-26T11:56:31.643Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/enigma/Desktop/git-mess/friendlychat-web/web-start'...
+[info] 
+[debug] [2018-08-26T11:56:31.651Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/139702289700/clients/_:getWebAppConfig  
+ 
+[debug] [2018-08-26T11:56:33.490Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[info] i  hosting[friendlychat-69871]: Serving hosting files from: ./
+[info] ✔  hosting[friendlychat-69871]: Local server: http://localhost:5005
+[debug] [2018-08-26T12:07:54.173Z] ----------------------------------------------------------------------
+[debug] [2018-08-26T12:07:54.179Z] Command:       /usr/bin/node /usr/local/bin/firebase serve --only hosting
+[debug] [2018-08-26T12:07:54.180Z] CLI Version:   4.2.0
+[debug] [2018-08-26T12:07:54.180Z] Platform:      linux
+[debug] [2018-08-26T12:07:54.180Z] Node Version:  v8.10.0
+[debug] [2018-08-26T12:07:54.180Z] Time:          Sun Aug 26 2018 17:37:54 GMT+0530 (IST)
+[debug] [2018-08-26T12:07:54.181Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-26T12:07:54.289Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-26T12:07:54.290Z] > authorizing via signed-in user
+[debug] [2018-08-26T12:07:54.302Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/friendlychat-69871  
+ 
+[debug] [2018-08-26T12:08:00.055Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-26T12:08:00.061Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/friendlychat-69871  
+ 
+[debug] [2018-08-26T12:08:03.787Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/enigma/Desktop/git-mess/friendlychat-web/web-start'...
+[info] 
+[debug] [2018-08-26T12:08:03.801Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/139702289700/clients/_:getWebAppConfig  
+ 
+[debug] [2018-08-26T12:08:15.053Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[info] i  hosting[friendlychat-69871]: Serving hosting files from: ./
+[info] ✔  hosting[friendlychat-69871]: Local server: http://localhost:5010
+[debug] [2018-08-26T12:10:00.424Z] Error: getaddrinfo ENOTFOUND www.gstatic.com www.gstatic.com:443
+    at errnoException (dns.js:50:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-08-26T12:10:00.427Z] Error: socket hang up
+    at createHangUpError (_http_client.js:331:15)
+    at TLSSocket.socketCloseListener (_http_client.js:363:23)
+    at emitOne (events.js:121:20)
+    at TLSSocket.emit (events.js:211:7)
+    at _handle.close (net.js:567:12)
+    at TCP.done [as _onclose] (_tls_wrap.js:356:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-08-26T12:10:14.584Z] ----------------------------------------------------------------------
+[debug] [2018-08-26T12:10:14.590Z] Command:       /usr/bin/node /usr/local/bin/firebase serve --only hosting
+[debug] [2018-08-26T12:10:14.591Z] CLI Version:   4.2.0
+[debug] [2018-08-26T12:10:14.591Z] Platform:      linux
+[debug] [2018-08-26T12:10:14.591Z] Node Version:  v8.10.0
+[debug] [2018-08-26T12:10:14.591Z] Time:          Sun Aug 26 2018 17:40:14 GMT+0530 (IST)
+[debug] [2018-08-26T12:10:14.591Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-26T12:10:14.602Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-26T12:10:14.603Z] > authorizing via signed-in user
+[debug] [2018-08-26T12:10:14.605Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/friendlychat-69871  
+ 
+[debug] [2018-08-26T12:10:17.126Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-26T12:10:17.133Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/friendlychat-69871  
+ 
+[debug] [2018-08-26T12:10:19.694Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/enigma/Desktop/git-mess/friendlychat-web/web-start'...
+[info] 
+[debug] [2018-08-26T12:10:19.707Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/139702289700/clients/_:getWebAppConfig  
+ 
+[debug] [2018-08-26T12:10:21.151Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[info] i  hosting[friendlychat-69871]: Serving hosting files from: ./
+[info] ✔  hosting[friendlychat-69871]: Local server: http://localhost:5010
+[debug] [2018-08-26T18:01:25.635Z] Error: getaddrinfo ENOTFOUND www.gstatic.com www.gstatic.com:443
+    at errnoException (dns.js:50:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-08-26T18:01:25.680Z] Error: socket hang up
+    at createHangUpError (_http_client.js:331:15)
+    at TLSSocket.socketCloseListener (_http_client.js:363:23)
+    at emitOne (events.js:121:20)
+    at TLSSocket.emit (events.js:211:7)
+    at _handle.close (net.js:567:12)
+    at TCP.done [as _onclose] (_tls_wrap.js:356:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-08-26T18:01:25.704Z] Error: getaddrinfo ENOTFOUND www.gstatic.com www.gstatic.com:443
+    at errnoException (dns.js:50:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-08-26T18:01:25.705Z] Error: socket hang up
+    at createHangUpError (_http_client.js:331:15)
+    at TLSSocket.socketCloseListener (_http_client.js:363:23)
+    at emitOne (events.js:121:20)
+    at TLSSocket.emit (events.js:211:7)
+    at _handle.close (net.js:567:12)
+    at TCP.done [as _onclose] (_tls_wrap.js:356:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-08-26T18:02:00.487Z] ----------------------------------------------------------------------
+[debug] [2018-08-26T18:02:00.494Z] Command:       /usr/bin/node /usr/local/bin/firebase serve --only hosting
+[debug] [2018-08-26T18:02:00.495Z] CLI Version:   4.2.0
+[debug] [2018-08-26T18:02:00.495Z] Platform:      linux
+[debug] [2018-08-26T18:02:00.495Z] Node Version:  v8.10.0
+[debug] [2018-08-26T18:02:00.496Z] Time:          Sun Aug 26 2018 23:32:00 GMT+0530 (IST)
+[debug] [2018-08-26T18:02:00.496Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-26T18:02:00.563Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-26T18:02:00.564Z] > authorizing via signed-in user
+[debug] [2018-08-26T18:02:00.574Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-08-26T18:02:00.576Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+
+[debug] [2018-08-26T18:02:19.099Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-26T18:02:19.142Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/friendlychat-69871  
+ 
+[debug] [2018-08-26T18:03:04.650Z] ----------------------------------------------------------------------
+[debug] [2018-08-26T18:03:04.653Z] Command:       /usr/bin/node /usr/local/bin/firebase serve --only hosting
+[debug] [2018-08-26T18:03:04.653Z] CLI Version:   4.2.0
+[debug] [2018-08-26T18:03:04.653Z] Platform:      linux
+[debug] [2018-08-26T18:03:04.653Z] Node Version:  v8.10.0
+[debug] [2018-08-26T18:03:04.653Z] Time:          Sun Aug 26 2018 23:33:04 GMT+0530 (IST)
+[debug] [2018-08-26T18:03:04.653Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-26T18:03:04.664Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-26T18:03:04.664Z] > authorizing via signed-in user
+[debug] [2018-08-26T18:03:04.667Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/friendlychat-69871  
+ 
+[debug] [2018-08-26T18:03:06.750Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-26T18:03:06.756Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/friendlychat-69871  
+ 
+[debug] [2018-08-26T18:03:08.879Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/enigma/Desktop/git-mess/friendlychat-web/web-start'...
+[info] 
+[debug] [2018-08-26T18:03:08.883Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/139702289700/clients/_:getWebAppConfig  
+ 
+[debug] [2018-08-26T18:03:10.251Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[info] i  hosting[friendlychat-69871]: Serving hosting files from: ./
+[info] ✔  hosting[friendlychat-69871]: Local server: http://localhost:5010
+[debug] [2018-08-26T18:22:06.913Z] Error: getaddrinfo ENOTFOUND www.gstatic.com www.gstatic.com:443
+    at errnoException (dns.js:50:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-08-26T18:22:07.108Z] Error: getaddrinfo ENOTFOUND www.gstatic.com www.gstatic.com:443
+    at errnoException (dns.js:50:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-08-26T18:22:07.121Z] Error: socket hang up
+    at createHangUpError (_http_client.js:331:15)
+    at TLSSocket.socketCloseListener (_http_client.js:363:23)
+    at emitOne (events.js:121:20)
+    at TLSSocket.emit (events.js:211:7)
+    at _handle.close (net.js:567:12)
+    at TCP.done [as _onclose] (_tls_wrap.js:356:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-08-26T18:22:07.140Z] Error: socket hang up
+    at createHangUpError (_http_client.js:331:15)
+    at TLSSocket.socketCloseListener (_http_client.js:363:23)
+    at emitOne (events.js:121:20)
+    at TLSSocket.emit (events.js:211:7)
+    at _handle.close (net.js:567:12)
+    at TCP.done [as _onclose] (_tls_wrap.js:356:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-08-26T18:23:07.740Z] ----------------------------------------------------------------------
+[debug] [2018-08-26T18:23:07.746Z] Command:       /usr/bin/node /usr/local/bin/firebase serve --only hosting
+[debug] [2018-08-26T18:23:07.747Z] CLI Version:   4.2.0
+[debug] [2018-08-26T18:23:07.748Z] Platform:      linux
+[debug] [2018-08-26T18:23:07.748Z] Node Version:  v8.10.0
+[debug] [2018-08-26T18:23:07.749Z] Time:          Sun Aug 26 2018 23:53:07 GMT+0530 (IST)
+[debug] [2018-08-26T18:23:07.749Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-26T18:23:07.837Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-26T18:23:07.837Z] > authorizing via signed-in user
+[debug] [2018-08-26T18:23:07.840Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/friendlychat-69871  
+ 
+[debug] [2018-08-26T18:23:09.955Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-26T18:23:09.961Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/friendlychat-69871  
+ 
+[debug] [2018-08-26T18:23:12.139Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/enigma/Desktop/git-mess/friendlychat-web/web-start'...
+[info] 
+[debug] [2018-08-26T18:23:12.145Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/139702289700/clients/_:getWebAppConfig  
+ 
+[debug] [2018-08-26T18:23:13.120Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[info] i  hosting[friendlychat-69871]: Serving hosting files from: ./
+[info] ✔  hosting[friendlychat-69871]: Local server: http://localhost:5010
+[debug] [2018-08-26T18:25:01.917Z] Error: getaddrinfo ENOTFOUND www.gstatic.com www.gstatic.com:443
+    at errnoException (dns.js:50:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-08-26T18:25:01.921Z] Error: getaddrinfo ENOTFOUND www.gstatic.com www.gstatic.com:443
+    at errnoException (dns.js:50:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-08-26T18:25:01.924Z] Error: getaddrinfo ENOTFOUND www.gstatic.com www.gstatic.com:443
+    at errnoException (dns.js:50:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-08-26T18:25:01.927Z] Error: socket hang up
+    at createHangUpError (_http_client.js:331:15)
+    at TLSSocket.socketCloseListener (_http_client.js:363:23)
+    at emitOne (events.js:121:20)
+    at TLSSocket.emit (events.js:211:7)
+    at _handle.close (net.js:567:12)
+    at TCP.done [as _onclose] (_tls_wrap.js:356:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-08-26T18:25:01.928Z] Error: socket hang up
+    at createHangUpError (_http_client.js:331:15)
+    at TLSSocket.socketCloseListener (_http_client.js:363:23)
+    at emitOne (events.js:121:20)
+    at TLSSocket.emit (events.js:211:7)
+    at _handle.close (net.js:567:12)
+    at TCP.done [as _onclose] (_tls_wrap.js:356:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-08-26T18:25:01.929Z] Error: socket hang up
+    at createHangUpError (_http_client.js:331:15)
+    at TLSSocket.socketCloseListener (_http_client.js:363:23)
+    at emitOne (events.js:121:20)
+    at TLSSocket.emit (events.js:211:7)
+    at _handle.close (net.js:567:12)
+    at TCP.done [as _onclose] (_tls_wrap.js:356:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-08-26T18:25:01.930Z] Error: getaddrinfo ENOTFOUND www.gstatic.com www.gstatic.com:443
+    at errnoException (dns.js:50:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-08-26T18:25:01.934Z] Error: socket hang up
+    at createHangUpError (_http_client.js:331:15)
+    at TLSSocket.socketCloseListener (_http_client.js:363:23)
+    at emitOne (events.js:121:20)
+    at TLSSocket.emit (events.js:211:7)
+    at _handle.close (net.js:567:12)
+    at TCP.done [as _onclose] (_tls_wrap.js:356:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-08-26T18:25:14.596Z] ----------------------------------------------------------------------
+[debug] [2018-08-26T18:25:14.601Z] Command:       /usr/bin/node /usr/local/bin/firebase serve --only hosting
+[debug] [2018-08-26T18:25:14.601Z] CLI Version:   4.2.0
+[debug] [2018-08-26T18:25:14.601Z] Platform:      linux
+[debug] [2018-08-26T18:25:14.601Z] Node Version:  v8.10.0
+[debug] [2018-08-26T18:25:14.602Z] Time:          Sun Aug 26 2018 23:55:14 GMT+0530 (IST)
+[debug] [2018-08-26T18:25:14.602Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-26T18:25:14.616Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-26T18:25:14.616Z] > authorizing via signed-in user
+[debug] [2018-08-26T18:25:14.619Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/friendlychat-69871  
+ 
+[debug] [2018-08-26T18:25:16.822Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-26T18:25:16.824Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/friendlychat-69871  
+ 
+[debug] [2018-08-26T18:25:19.092Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/enigma/Desktop/git-mess/friendlychat-web/web-start'...
+[info] 
+[debug] [2018-08-26T18:25:19.097Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/139702289700/clients/_:getWebAppConfig  
+ 
+[debug] [2018-08-26T18:25:21.397Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[info] i  hosting[friendlychat-69871]: Serving hosting files from: ./
+[info] ✔  hosting[friendlychat-69871]: Local server: http://localhost:5010
+[debug] [2018-08-27T13:19:15.560Z] ----------------------------------------------------------------------
+[debug] [2018-08-27T13:19:15.571Z] Command:       /usr/bin/node /usr/local/bin/firebase serve --only hosting
+[debug] [2018-08-27T13:19:15.571Z] CLI Version:   4.2.0
+[debug] [2018-08-27T13:19:15.571Z] Platform:      linux
+[debug] [2018-08-27T13:19:15.572Z] Node Version:  v8.10.0
+[debug] [2018-08-27T13:19:15.572Z] Time:          Mon Aug 27 2018 18:49:15 GMT+0530 (IST)
+[debug] [2018-08-27T13:19:15.572Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-27T13:19:15.647Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-27T13:19:15.648Z] > authorizing via signed-in user
+[debug] [2018-08-27T13:19:15.658Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-08-27T13:19:15.659Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+
+[debug] [2018-08-27T13:19:16.291Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-27T13:19:16.381Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/friendlychat-69871  
+ 
+[debug] [2018-08-27T13:19:17.963Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-27T13:19:17.968Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/friendlychat-69871  
+ 
+[debug] [2018-08-27T13:19:19.896Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/enigma/Desktop/git-mess/friendlychat-web/web-start'...
+[info] 
+[debug] [2018-08-27T13:19:19.900Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/139702289700/clients/_:getWebAppConfig  
+ 
+[debug] [2018-08-27T13:19:20.940Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[info] i  hosting[friendlychat-69871]: Serving hosting files from: ./
+[info] ✔  hosting[friendlychat-69871]: Local server: http://localhost:5015
